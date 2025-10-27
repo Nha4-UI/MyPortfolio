@@ -1032,6 +1032,9 @@ span {
 
     /*  Home-design */
     .home {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
         min-height: auto;
         position: relative;
         padding: 100px 20px;
