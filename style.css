@@ -972,11 +972,6 @@ span {
 }
 
 @media (max-width: 768px) {
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
 
     /* navbar design */
     .navbar {
@@ -1032,9 +1027,6 @@ span {
 
     /*  Home-design */
     .home {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
         min-height: auto;
         position: relative;
         padding: 100px 20px;
@@ -1228,8 +1220,7 @@ span {
         border-radius: 10px;
     }
 
-    .skills h3 {
-        margin-bottom: -15px;
+    .skill-main h3 {
         font-size: 20px;
         text-align: center;
         color: #E2F3F4;
