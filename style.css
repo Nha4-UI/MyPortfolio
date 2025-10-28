@@ -971,7 +971,7 @@ span {
     }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 0px) and (max-width: 768px) {
 
     /* navbar design */
     .navbar {
@@ -1027,7 +1027,7 @@ span {
 
     /*  Home-design */
     .home {
-        min-height: auto;
+        min-height: 100vh;
         position: relative;
         padding: 100px 20px;
         background-size: 155% 100%;
@@ -1038,6 +1038,7 @@ span {
     .home-content {
         display: flex;
         flex-direction: column;
+        margin-top: 50px;
     }
 
     .home-content .text-animation h3 {
@@ -1070,11 +1071,10 @@ span {
 
     .home-sci {
         position: absolute;
-        bottom: 10px;
-        width: 110px;
+        bottom: 30px;
+        width: 150px;
         display: flex;
         justify-content: space-between;
-        margin-bottom: 10px;
     }
 
     .home-sci a {
@@ -1082,12 +1082,12 @@ span {
         display: inline-flex;
         justify-content: center;
         align-items: center;
-        width: 30px;
-        height: 30px;
+        width: 39px;
+        height: 39px;
     }
 
     .home-sci a i {
-        font-size: 14px;
+        font-size: 18px;
     }
 
     /* About design */
@@ -1175,12 +1175,13 @@ span {
         justify-content: center;
         flex-direction: column;
         margin-top: -5px;
+        margin-bottom: 25px;
     }
 
     /* skills left */
     .skill-left {
         margin: auto;
-        width: 300px;
+        width: 370px;
         border: 2px solid #E2F3F4;
         padding: 15px;
         border-radius: 10px;
@@ -1214,7 +1215,7 @@ span {
     /* skills right */
     .skill-right {
         margin: auto;
-        width: 300px;
+        width: 370px;
         border: 2px solid #E2F3F4;
         padding: 15px;
         border-radius: 10px;
