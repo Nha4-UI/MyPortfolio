@@ -1381,6 +1381,8 @@ span {
 
     /* footer design */
     .footer {
+        width: 100%;
+        min-height: auto;
         margin-top: 70px;
         padding: 10px 20px;
     }
