@@ -107,6 +107,7 @@ body {
 
 /* home design */
 .home {
+    width: 100%;
     min-height: 100vh;
     padding: 15rem 6.5% 4rem;
     display: flex;
@@ -282,6 +283,7 @@ body {
 
 /* about design */
 .about {
+    width: 100%;
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -362,6 +364,7 @@ span {
 
 /* education skills design */
 .education {
+    width: 100%;
     padding-left: 100px;
     padding-right: 100px;
     display: flex;
@@ -472,6 +475,7 @@ span {
 
 /* skills design */
 .skills {
+    width: 100%;
     padding: 50px 100px;
     min-height: 100vh;
     background-color: #6DC7D1;
@@ -641,6 +645,7 @@ span {
 
 /* Contact design */
 .contact {
+    width: 100%;
     min-height: 100vh;
     background-color: #E2F3F4;
 }
