@@ -1032,6 +1032,7 @@ span {
 
     /*  Home-design */
     .home {
+        width: 100%;
         min-height: auto;
         position: relative;
         padding: 100px 20px;
@@ -1098,6 +1099,7 @@ span {
 
     /* About design */
     .about {
+        width: 100%;
         min-height: 100vh;
         display: flex;
         align-items: center;
@@ -1130,6 +1132,7 @@ span {
 
     /* education design */
     .education {
+        width: 100%;
         padding-left: 60px;
         padding-right: 60px;
         display: flex;
@@ -1253,6 +1256,7 @@ span {
 
     /* contact design*/
     .contact {
+        width: 100%;
         min-height: 100vh;
     }
 
