@@ -1729,6 +1729,7 @@ body {
     .skills {
         width: 100%;
         height: auto;
+        margin-bottom: 20px;
     }
 
 
@@ -1768,7 +1769,7 @@ body {
         display: grid;
         grid-template-rows: auto auto;
         grid-template-columns: 100%;
-        gap: 2%;
+        gap: 3%;
         padding: 20px;
         margin-top: 10px;
     }
