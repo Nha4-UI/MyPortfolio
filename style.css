@@ -1678,6 +1678,7 @@ body {
 
     .about-list ul {
         list-style: inside;
+        font-size: 12px;
     }
 
     .about-list ul li {
