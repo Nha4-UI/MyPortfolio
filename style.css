@@ -1396,7 +1396,7 @@ body {
 
     .header {
         position: fixed;
-        width: 95%;
+        width: 97%;
     }
 
     /* navbar design */
@@ -1454,14 +1454,15 @@ body {
     /*  Home-design */
     .home {
         width: 100%;
-        min-height: 650px;
+        min-height: 500px;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column-reverse;
         /* margin: auto; */
+        margin-top: 100px;
         border-radius: 20px;
-        margin-bottom: 30px;
+        /* margin-bottom: 30px; */
     }
 
     /* Home content design */
