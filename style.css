@@ -1454,13 +1454,13 @@ body {
     /*  Home-design */
     .home {
         width: 100%;
-        min-height: 500px;
+        min-height: 650px;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column-reverse;
         /* margin: auto; */
-        margin-top: 100px;
+        margin-top: 60px;
         border-radius: 20px;
         /* margin-bottom: 30px; */
     }
