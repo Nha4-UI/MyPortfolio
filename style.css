@@ -16,6 +16,7 @@
 }
 
 html {
+    max-width: 100%;
     font-size: 86.5%;
     overflow-x: hidden;
 }
@@ -23,6 +24,7 @@ html {
 body {
     background-color: #F5EFEB;
     padding: 20px;
+    overflow-x: hidden;
 }
 
 
