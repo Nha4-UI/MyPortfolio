@@ -177,6 +177,22 @@ body {
     font-size: 32px;
     font-weight: 400;
     color: #212842;
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 3px solid;
+    animation: text-animation 3s steps(16) infinite,
+        cursor .5s step-end infinite;
+}
+
+@keyframes text-animation {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 16ch;
+    }
 }
 
 .home-content p {
